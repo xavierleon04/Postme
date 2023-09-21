@@ -1,0 +1,89 @@
+/* Estilos para el contenedor principal con ondulaciones amarillas */
+.ondulaciones-amarillas {
+  background-image: url('../img/fondo.jpg'); /* Ruta de tu imagen de fondo */
+  background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center center; /* Centra la imagen en el contenedor */
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos para el contenido en el centro */
+.d-flex {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Estilos para la imagen con borde redondo y colores invertidos */
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+  border: 5px solid #FFD133; /* Borde amarillo */
+  border-radius: 5%; /* Borde redondo */
+}
+
+/* Estilos para el botón con borde redondo y colores invertidos */
+.btn-primary {
+  background-color: #cf6c9c; /* Amarillo */
+  border: 3px solid #000; /* Borde negro */
+  color: #FFD133; /* Texto negro */
+  border-radius: 10%; /* Borde redondo */
+}
+
+.btn-primary:hover {
+  background-color: #FDB813; /* Amarillo más claro al pasar el mouse */
+  border: 3px solid #000; /* Borde negro */
+  color: #000; /* Texto negro */
+}
+
+/* Estilos para el modal */
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Ajusta la altura del modal como desees */
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-body p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Estilos para la imagen dentro del modal */
+.modal-img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #FFD133; /* Borde amarillo */
+  border-radius: 50%; /* Borde redondo */
+}
+
+/* Estilos para el botón */
+.btn-primary {
+  background-color: #FFF; /* Blanco */
+  border: 3px solid #FFD133; /* Borde amarillo */
+  color: #FFD133; /* Texto amarillo */
+}
+
+.btn-primary:hover {
+  background-color: #FFD133; /* Amarillo */
+  border: 3px solid #FFF; /* Borde blanco */
+  color: #FFF; /* Texto blanco */
+}
+
+/* Estilos para el botón de cierre en el modal */
+.close {
+  color: #000; /* Texto negro */
+}
+
+.close:hover {
+  color: #FDB813; /* Amarillo más claro al pasar el mouse */
+}
